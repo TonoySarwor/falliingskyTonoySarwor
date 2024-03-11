@@ -7,6 +7,13 @@ sc.bgcolor("Black")
 p = turtle.Turtle()
 p.color("White")
 p.hideturtle()
+pn = turtle.Turtle()
+pn.color("White")
+pn.hideturtle()
+pn.penup()
+pn.goto(80, 100)
+pn.write("Tonoy", align= "Right", font=("JetBrains Mono", 16, "bold"))
+
 
 for i in range(2):
     p.forward(90)
