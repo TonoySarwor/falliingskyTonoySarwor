@@ -28,6 +28,7 @@ p.write("Start Game", font=("JetBrains Mono", 10, 'normal'))
 def button(x, y):
     if x > 0 and x < 91 and y > 0 and y < 30:
         p.clear()
+        pn.clear()
         s = turtle.Screen()
         s.setup(height=400, width=800)
         s.bgcolor("black")
